@@ -1,0 +1,75 @@
+:root {
+  /* Typography */
+  --typography-heading: #333;
+  --typography-desc: #666;
+  --typography-list: #555;
+  --typography-nav: #444;
+
+  /* Backgrounds */
+  --bg-primary: #fff;
+  --bg-secondary: #eaeaea;
+  --bg-light: #fafafa;
+  --bg-card: #f1f1f1;
+  --bg-neutral: #ddd;
+  --bg-border: #f1f1f1;
+  --bg-nav: #d0d0d0;
+  --text-color:#474747;
+
+  /* Container */
+  --bg-body: #f8f8f8;
+  --bg-container: #fff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--bg-body);
+  display: flex;
+  justify-content: center;
+  color: var(--typography-desc);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+  background: var(--bg-container);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 20% 1fr 20%;
+  gap: 20px;
+  padding: 20px;
+}
+
+.Separator {
+  height: 1px;
+  background: var(--bg-border);
+  margin: 0;
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --typography-heading: #eee;
+    --typography-desc: #ccc;
+    --typography-list: #bbb;
+    --typography-nav: #aaa;
+
+    --bg-primary: #2a2a2a;
+    --bg-secondary: #1e1e1e;
+    --bg-light: #2c2c2c;
+    --bg-card: #3a3a3a;
+    --bg-neutral: #555;
+    --bg-border: #3a3a3a;
+    --bg-body: #121212;
+    --bg-nav: #696969;
+    --bg-container: #1e1e1e;
+    --text-color:#EEE;
+
+  }
+}

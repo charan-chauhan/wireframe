@@ -1,0 +1,24 @@
+.Stp {
+  padding: 15px;
+  border: 1px solid var(--bg-border);
+}
+
+.Stp_tl {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--typography-heading);
+}
+
+.Stp_tx {
+  font-size: 16px;
+  color: var(--typography-desc);
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.Stp_img {
+  background: var(--bg-neutral);
+  aspect-ratio: 4 / 3;
+  border-radius: 6px;
+}

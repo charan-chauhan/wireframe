@@ -1,0 +1,40 @@
+/* Base button */
+.btn {
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* Variants */
+.btn_primary {
+  background: var(--bg-neutral);
+  color: var(--text-color);
+}
+
+.btn_secondary {
+  background: var(--bg-secondary);
+  color: var(--text-color);
+}
+
+.btn_outline {
+  background: transparent;
+  border: 1px solid var(--bg-border);
+  color: var(--text-color);
+}
+
+/* Sizes */
+.btn_sm {
+  padding: 4px 10px;
+  font-size: 12px;
+}
+
+.btn_md {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.btn_lg {
+  padding: 12px 20px;
+  font-size: 16px;
+}
